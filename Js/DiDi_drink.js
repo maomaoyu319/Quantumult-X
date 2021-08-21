@@ -31,7 +31,7 @@ const wsgsig = [
 	} else {
 		await drink();
 		await $.info("滴滴喝水\n" + $.subTitle + "\n" + $.detail + "\n" + $.tail);
-		await $.notify("滴滴喝水 🥃", $.subTitle, $.detail + "\n" + $.tail);
+		//await $.notify("滴滴喝水 🥃", $.subTitle, $.detail + "\n" + $.tail);
 	}
 })()
 	.catch((err) => {
